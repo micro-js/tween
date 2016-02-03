@@ -1,0 +1,17 @@
+{
+  "name": "@f/tween",
+  "description": "Tween your properties",
+  "repository": "git://github.com/micro-js/tween.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@f/map-obj": "^1.2.2"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
