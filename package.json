@@ -2,7 +2,7 @@
   "name": "@f/tween",
   "description": "Tween your properties",
   "repository": "git://github.com/micro-js/tween.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
