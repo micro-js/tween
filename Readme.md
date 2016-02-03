@@ -48,7 +48,7 @@ animate(element, {width: 10, left: 2}, {width: 100, left: 200})
 - `easing` - An easing function that takes a tick value and interpolates it according to some easing function. Defaults to linear.
 - `interval` - The tick length you want to use, in milliseconds. Defaults to 16.66ms (i.e. a single requestAnimationFrame timer).
 
-**Returns:** A partially applied function that accepts a single parameter, `t` and returns the interpolated properties for that tick. The `t` parameter is a unitless value that corresponds to the frame of the tween you are requesting. So, if you are using `requestAnimationFrame` and the default interval, you just increment t once for each tick.
+**Returns:** A partially applied function that accepts a single parameter, `t` and returns the interpolated properties for that tick. The `t` parameter is a unitless value that corresponds to the frame of the tween you are requesting. So, if you are using `requestAnimationFrame` and the default interval, you just increment t once for each tick. `t` does not need to be an integer.
 
 ## License
 
